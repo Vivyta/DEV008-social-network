@@ -1,0 +1,59 @@
+.titlelogin{
+    color:#08080a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:600px;
+    background: url(./imagen/fondo2anime.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+
+  }
+.card {
+padding: 20px;
+background: white;
+box-shadow: 10px 10px rgb(239, 154, 69) ;
+border-radius: 20px;
+margin: 20px;
+}
+.sectionlogin {
+  background-color: bisque;
+    border-radius: 40px;
+    width: 60%;
+    height: 30%;
+    position: absolute;
+    top: 30%;
+    right: -0%;
+    left: 5%;
+  }
+
+.sectionregister {
+  background-color: bisque;
+  border-bottom: #08080a;
+}
+.divlogin {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+}
+.divlogin input{
+  display: block;
+  width: 50%;
+  height: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.divlogin button{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+
+}
