@@ -4,7 +4,7 @@ import { listenPosts, savePosts, eliminar } from "../lib/firebase";
 function wall(navigateTo) {
   const section = document.createElement("section");
   section.className = "section wall";
-  const title = document.createElement("H3");
+  const title = document.createElement("H6");
   title.className= "title";
   const inputPost = document.createElement("input");
   const buttonPost = document.createElement("button");

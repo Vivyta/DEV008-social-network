@@ -1,8 +1,8 @@
 import { registerFirebase } from "../lib/firebase";
 function register(navigateTo) {
   const section = document.createElement("section");
-  section.className = "sectionregister"
-;  const title = document.createElement("h2");
+  section.className = "sectionregister";
+  const title = document.createElement("h2");
   const form = document.createElement("div");
   const inputEmail = document.createElement("input");
   const inputPass = document.createElement("input");
